@@ -99,7 +99,7 @@ const pokDetails = ({poko,btn_styles}) => {
             })
         }
         {/* //back to homepage button */}
-        <div className='text-center mt-3'>
+        <div className='text-center mt-3 mb-3'>
           <Link href={"/"} className='back'> <i class="fa-solid fa-house"></i> Back to Homepage</Link>
           </div>
         </div>
