@@ -104,7 +104,7 @@ a {
   background-repeat: no-repeat;
   padding-bottom:;
   
-  z-index: 999999999999999999999999;
+  z-index: 500;
   position: relative;
 
 }
