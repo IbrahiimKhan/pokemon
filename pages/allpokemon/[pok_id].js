@@ -40,7 +40,7 @@ const pokDetails = ({poko,btn_styles}) => {
                             <strong className='details-board'>{pokemon.attacks.special[0].name}
                             </strong>
                             <br/>
-                            <strong className='details-board'> {pokemon.attacks.special[1].name==undefined?"":pokemon.attacks.special[1].name}</strong>
+                            <strong className='details-board'> {pokemon.attacks.special[1]==undefined?"":pokemon.attacks.special[1].name}</strong>
                             </div>
                             </div>
                         </div>
@@ -86,11 +86,11 @@ const pokDetails = ({poko,btn_styles}) => {
                           </div>
                           <small>Defence</small>
                           <div class="progress">
-                            <div class="progress-bar" role="progressbar" style={{width:(pokemon.attacks.special[1].damage).toString()+"%"}} aria-valuenow={{width:(pokemon.attacks.special[1].damage)}} aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style={{width:pokemon.attacks.special[1]==undefined?20:(( pokemon.attacks.special[1].damage).toString()+"%")}} aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                           <small>Speed</small>
                           <div class="progress">
-                            <div class="progress-bar" role="progressbar" style={{width:(Math.max(pokemon.fleeRate*1000)).toString()+"%"}} aria-valuenow={{width:(pokemon.attacks.special[1].damage)}} aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style={{width:(Math.max(pokemon.fleeRate*1000)).toString()+"%"}} aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                     </div> 
