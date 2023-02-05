@@ -271,12 +271,12 @@ p.big_text {
 }
 p.prim_text {
   order: -1;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .col-md-2.inner-col {
   display: inline-grid;
   margin-left: 25%;
-  margin-top: -22%;
+  margin-top: -30%;
 }
 .col-md-5.down.col-12 {
   display: inline-grid;
