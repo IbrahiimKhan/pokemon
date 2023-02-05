@@ -269,6 +269,32 @@ p.big_text {
   width: 70px;
   height: 70px;
 }
+p.prim_text {
+  order: -1;
+  margin-bottom: 40px;
+}
+.col-md-2.inner-col {
+  display: inline-grid;
+  margin-left: 25%;
+  margin-top: -22%;
+}
+.col-md-5.down.col-12 {
+  display: inline-grid;
+}
+.first.second.d-flex {
+  order: -2;
+  margin-top: -30%;
+  margin-left: 55%;
+}
+.first.last_img.d-flex {
+  order: -1;
+  margin-left: 55%;
+  margin-bottom: 10px;
+}
+/* .pokey {
+  width: 70px;
+  height: 70px;
+}
 img.float-left.mb-2.img-fluid.pokey.image3 {
   margin-top: -142px;
   margin-left: -33px;
@@ -290,7 +316,7 @@ img.float-left.pokey.image1 {
 }
 p.res_text {
   margin-top: 69px;
-}
+} */
 .col-md-4.col-12.main_image {
   order: -1;
   text-align: center;
